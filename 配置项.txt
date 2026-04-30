@@ -1,0 +1,20 @@
+
+## 🚀 快速开始
+
+### 环境要求
+- Python 3.8+
+- DeepSeek API Key
+
+### 安装
+
+```bash
+# 克隆项目
+git clone https://github.com/你的用户名/code-refactor-agent.git
+cd code-refactor-agent
+
+# 安装依赖
+pip install -r requirements.txt
+
+# 配置 API Key
+echo "DEEPSEEK_API_KEY=sk-你的密钥" > .env
+echo "DEEPSEEK_BASE_URL=https://api.deepseek.com/v1" >> .env
